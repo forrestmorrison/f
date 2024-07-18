@@ -2,9 +2,9 @@ import FLogo from '../images/f-logo.png'
 
 const Nav = () => {
   return (
-    <>
-      <img src={FLogo} alt='' />
-    </>
+    <div className='nav'>
+      <img src={FLogo} alt='' className='f-logo'/>
+    </div>
   )
 }
 
