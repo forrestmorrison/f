@@ -15,12 +15,12 @@ code {
 .App {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .nav {
-  grid-column: 0 / span 1;
-  grid-row: 2 / span 3;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
 }
 
 .f-logo {
@@ -34,6 +34,15 @@ ul {
   list-style-type: none;
 }
 
+.icon {
+  margin-right: 0.5rem;
+}
+
+.nav li {
+  margin: 2rem 1rem;
+}
+
 a {
+  font-weight: bold;
   text-decoration: none;
 }
