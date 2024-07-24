@@ -8,11 +8,11 @@ const Nav = () => {
     <div className='nav'>
       <img src={FLogo} alt='' className='f-logo'/>
       <ul>
-        <li><GoHomeFill className='icon' /><Link to='/'>Home</Link></li>
-        <li><FaSearch className='icon' /><Link to='/explore'>Explore</Link></li>
-        <li><GoBell className='icon' /><Link to='/notifications'>Notifications</Link></li>
-        <li><GoMail className='icon' /><Link to='/messages'>Messages</Link></li>
-        <li><GoPerson className='icon' /><Link to='/profile'>Profile</Link></li>
+        <li><Link to='/'><GoHomeFill className='icon' />Home</Link></li>
+        <li><Link to='/explore'><FaSearch className='icon' />Explore</Link></li>
+        <li><Link to='/notifications'><GoBell className='icon' />Notifications</Link></li>
+        <li><Link to='/messages'><GoMail className='icon' />Messages</Link></li>
+        <li><Link to='/profile'><GoPerson className='icon' />Profile</Link></li>
       </ul>
     </div>
   )
