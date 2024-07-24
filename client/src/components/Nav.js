@@ -13,6 +13,7 @@ const Nav = () => {
         <li><Link to='/notifications'><GoBell className='icon' />Notifications</Link></li>
         <li><Link to='/messages'><GoMail className='icon' />Messages</Link></li>
         <li><Link to='/profile'><GoPerson className='icon' />Profile</Link></li>
+        <li><button>POST</button></li>
       </ul>
     </div>
   )

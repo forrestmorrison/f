@@ -47,3 +47,12 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
+.nav button {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+}
